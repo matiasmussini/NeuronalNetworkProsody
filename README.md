@@ -30,3 +30,5 @@ HDF5 was useful for storing large datasets on a local disk, due to its efficient
 Once the data is ready, the model was defined with the use of SincNet in its tensorflow implementation in the first layer, along with LeakyReLU, Flatten, MaxPooling1D, Input, Dropout, Dense, Conv1D functions, for the creation of each layer of convolution. Code can be found at model.ipynb
 
 Once the model was built, it was saved at Prosodynet.h5 format. This allows the model weights to be imported by anyone with no need to run the previous code, using the keras function load_model. (As the model weights 6Gb, if interested ask for it at matias.mussini@alumnos.upm.es)
+
+TryUsing_ProsodyNetwork.ipynb is an implementation for a quick user experience with the model.
