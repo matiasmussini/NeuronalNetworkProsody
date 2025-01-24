@@ -32,3 +32,7 @@ Once the data is ready, the model was defined with the use of SincNet in its ten
 Once the model was built, it was saved at Prosodynet.h5 format. This allows the model weights to be imported by anyone with no need to run the previous code, using the keras function load_model. (As the model weights 6Gb, if interested ask for it at matias.mussini@alumnos.upm.es)
 
 TryUsing_ProsodyNetwork.ipynb is an implementation for a quick user experience with the model.
+
+Three more models were created, two of them based on a STFT and Mel spectograms as visual representation of the audiofiles, training two CNN. The latter is a SVM model trained with MFCC as representation of the data.
+
+In test.ipynb it can be found a comparison of the performance of these four models. By using new test data created by a new form with 25 sentences and 10 new participants.
